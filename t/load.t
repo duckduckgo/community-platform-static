@@ -4,3 +4,5 @@ use warnings;
 use Test::More;
 
 use_ok('DDGC::Static');
+
+done_testing;
