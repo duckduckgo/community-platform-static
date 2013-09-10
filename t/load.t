@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-use Test::LoadAllModules;
+use Test::More;
 
-BEGIN {
-#all_uses_ok( search_path => '' );
-}
+use_ok('DDGC::Static');
