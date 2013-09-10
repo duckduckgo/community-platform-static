@@ -81,13 +81,16 @@ img { max-width: 100%; }
 .gw { 
     margin-left: -1em; 
     /* letter-spacing fix for inline-block grid elements borrowed from @csswizardry grids */
-    letter-spacing:-0.31em;
+    letter-spacing: -0.31em; /* webkit */
+    *letter-spacing: normal; /* reset IE < 8 */
+    word-spacing: -0.43em; /* IE < 8 && gecko */
 }
     .g { 
         padding-left: 1em;         
         display: inline-block;
         vertical-align: top;
         letter-spacing:normal;
+		word-spacing: normal;
         /* reset the default floating behaviour on grid widths */
         float: none;
         /* border-box sizing in case you don't use a standard grid width */
