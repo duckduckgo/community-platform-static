@@ -381,6 +381,10 @@ Buttons/Tags
         .button.full--r, .tag.full--r  {
             text-align: right;
         }
+	.button.h-tall, .tag.h-tall {
+		padding-top: 6px;
+		padding-bottom: 6px;
+	}
 	.button.tall, .tag.tall {
 		padding-top: 13px;
 		padding-bottom: 13px;
