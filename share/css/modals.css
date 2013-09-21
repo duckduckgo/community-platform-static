@@ -123,7 +123,10 @@ Motices
 			filter: alpha(opacity=100);
 		}
 		
-		.notice .account-actions { padding-left: 1em; }
+		.notice .account-actions { 
+			padding-left: 1em; 
+			border: none;
+		}
 			.notice .account-actions a { 
 				padding: 0 10px;
 				line-height: 1;
