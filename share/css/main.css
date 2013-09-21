@@ -525,7 +525,15 @@ a.fill {
 					-webkit-border-radius: 5px;
 					border-radius: 5px;
 				}
-		
+	
+	.header-notice {
+		overflow: hidden;
+		margin-top: 7px;
+	}
+		.header-notice .notice {
+			margin-bottom: 0;
+		}
+	
 	
 	.header-nav { float: left; text-align: center; }
 		.header-nav ul { 
@@ -808,7 +816,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 /* 
 	Media Queries
 */
-@media only screen and (min-width: 1060px) {
+@media only screen and (min-width: 1000px) {
 	/* keep the footer at the bottom for larger screens where the height is known */
 	html, body { height: 100%; min-height: 100%; }
 	#wrapper { min-height: 100%; }
@@ -834,7 +842,8 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	.topmsg { zoom: 0.85; }
 	.header-login { position: absolute; right: 0; }	
 	.site-header .user-avatar { visibility: visible; }
-	.header-nav { clear: both; float: none; padding-top: 4px;}
+	.header-notice { padding-bottom: 4px; }
+	.header-nav, .header-notice { clear: both; float: none; padding-top: 4px;}
 		.header-nav ul { float: none; }
 		.header-nav li { 
 			width: 25%; /* assuming 4 nav items */ 
