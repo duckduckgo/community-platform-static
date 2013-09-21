@@ -230,8 +230,9 @@ Reveal Modals
 	visibility: hidden;
 	line-height: 1.5;
 	top: -100%; 
-	left: 50%;
-	margin-left: -187px;
+	left: 0;
+	right: 0;
+	margin: auto;
 	width: 330px;
 	background: #fff;
 	border: 4px solid #dcdcdc;
@@ -246,17 +247,21 @@ Reveal Modals
 	box-shadow: 0 0 10px rgba(0,0,0,.4);
 }
 	
-.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
-.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
-.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+.reveal-modal.small 		{ width: 200px; }
+.reveal-modal.medium 		{ width: 400px; }
+.reveal-modal.large 		{ width: 600px; }
 .reveal-modal.xlarge 		{ 
 	width: 95%; 
-	margin-left: -47.5%; 
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
+}
+.reveal-modal--img {
+	top: -200%;
+	width: auto;
+	bottom: 0;
 }
 
 .reveal-modal i.close-modal {
