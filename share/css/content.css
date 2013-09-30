@@ -1,5 +1,10 @@
 /* Content Styling */
-
+	
+	.content h1 { 
+		font-weight: bold;
+		text-align: left;
+	}
+	
 	.content h3, .content h4, .content h5, .content blockquote, .content .block, .content .p, .content p {
 		margin-bottom: 1.4em;
 	}
