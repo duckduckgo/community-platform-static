@@ -224,7 +224,10 @@ a.fill {
 	/* and that's pretty much all we need for now */
 }
 		.nav-item { display: block; }
-		.nav-item__link, .nav-item__title { display: block; }
+		.nav-item__link, .nav-item__title { 
+			display: block; 
+			cursor: pointer; 
+		}
 	
 .nav--panels {
 	/* ok now we know what kind of nav this is, so we're going to go ahead and style it */
