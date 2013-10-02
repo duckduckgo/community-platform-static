@@ -655,14 +655,25 @@ a.fill {
 				color: inherit;
 			}
 			
-		.content-box .head .icn--sup { 
-			color: #be9c43; 
+		.content-box .head .icn--sup,
+		.content-box .head .icn {
 			text-shadow: -1px 0 1px rgba(255,255,255,0.1);
+			color: #be9c43;
+			position: relative;			
+		}		
+		.content-box .head .icn {
+			font-size: 20px;			
+		}
+		.content-box .head .icn--sup {
 			padding-left: 8px;
-			font-size: 90%;
-			position: relative;
+			font-size: 90%;			
 			top: -2px;
 		}
+		.icn--pulled {
+			top: 3px;
+			right: 8px;
+		}
+		
 		.content-box .head .userpic {
 			position: absolute; 
 			top: 7px;
@@ -670,7 +681,7 @@ a.fill {
 		}
 			.content-box .head .userpic + h2 { padding-left: 42px; }
 			.content-box .head .button { margin: -2px auto; }
-				.content-box .head .button + .button { margin-left: 4px; }				
+				.content-box .head .button + .button { margin-left: 4px; }
 				/* oh my god specificity nightmare - don't try this at home */
 				.content-box .head .button-group .button + .button { margin-left: -1px; }
 				.content-box .head .button.disabled { opacity: 1; }
