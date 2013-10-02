@@ -262,7 +262,7 @@ a.fill {
 		margin-bottom: -1px;
 	}
 		.nav-item__link:hover { 
-			background-color: #fefefe;  			
+			background-color: #fcfcfc;  			
 		}
 			.nav-item__link:active { background-color: #f7f7f7; }
 		.nav-item--active .nav-item__title { 			
