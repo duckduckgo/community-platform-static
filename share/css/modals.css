@@ -227,15 +227,17 @@ Reveal Modals
 	display: none;
 	top: 0;
 	left: 0; 
+	right: 0;
+	bottom: 0;
+	padding-bottom: 5em;
 }
 
 .reveal-modal {
 	visibility: hidden;
 	line-height: 1.5;
 	top: -100%; 
-	left: 0;
-	right: 0;
-	margin: auto;
+	left: 50%;
+	margin-left: -191px; /* width /2 + horiz padding + border-width */
 	width: 330px;
 	background: #fff;
 	border: 4px solid #dcdcdc;
@@ -249,11 +251,25 @@ Reveal Modals
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
 	box-shadow: 0 0 10px rgba(0,0,0,.4);
 }
+	@media only screen and (max-width: 380px) {
+		.reveal-modal {
+			/* 
+				by sticking to a fixed width we cause ourselves some problems.
+				much of this could probably be re-written to work better on mobile, 
+				but this is the lesser of two evils at the moment.
+			*/
+			width: 300px;
+			margin-left: -176px;
+		}
+	}
 	
-.reveal-modal.small 		{ width: 200px; }
-.reveal-modal.medium 		{ width: 400px; }
-.reveal-modal.large 		{ width: 600px; }
+.reveal-modal.small 		{ width: 200px;  margin-left: -152px; }
+.reveal-modal.medium 		{ width: 400px;  margin-left: -252px; }
+.reveal-modal.large 		{ width: 600px;  margin-left: -352px; }
 .reveal-modal.xlarge 		{ 
+	left: 0;
+	right: 0;
+	margin: auto;
 	width: 95%; 
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -262,9 +278,12 @@ Reveal Modals
 	box-sizing: border-box;
 }
 .reveal-modal--img {
-	top: -200%;
-	width: auto;
+	top: -200%;	
+	left: 0;
+	right: 0;
 	bottom: 0;
+	width: auto;
+	margin: auto;
 }
 
 .reveal-modal i.close-modal {
