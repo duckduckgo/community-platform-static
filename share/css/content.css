@@ -3,6 +3,7 @@
 	.content h1 { 
 		font-weight: bold;
 		text-align: left;
+		letter-spacing: auto;
 	}
 	
 	.content h3, .content h4, .content h5, .content blockquote, .content .block, .content .p, .content p {
