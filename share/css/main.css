@@ -294,8 +294,9 @@ a.fill {
 		}
 			.sub-item--active .sub-item__title, 
 			.sub-item__link:hover {
-				background-color: #fff;
+				background-color: #efefef;
 				color: inherit;
+				box-shadow: inset 0 1px 1px #ddd;
 			}
 		
 		/* 
