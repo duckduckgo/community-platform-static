@@ -257,7 +257,8 @@ a.fill {
 	.nav-item__title {
 		color: inherit; 
 		font-weight: bold; 
-		padding: 0.75em 1.25em;
+		padding: 0.7em 1.25em;
+		line-height: 1.75;
 		background-color: #fff;
 		position: relative;
 		border-bottom: 1px solid #d7d7d7;
