@@ -731,7 +731,11 @@ a.fill {
 		}
 		.content-box .row.half {
 			clear: none;
+		}			
+		.content-box .row.mid {
+			padding-left: 8px;
 		}
+ 
 		
 	.content-box .button {
 		height: 28px; 
