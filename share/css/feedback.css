@@ -220,6 +220,9 @@ you can use the generic selector below, but it's slower:
 	margin: 0 auto 10px;
 }
 .fb-step {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 	display: table;
 	vertical-align: middle;
 	width: 100%;

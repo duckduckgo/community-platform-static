@@ -170,7 +170,7 @@ Modal Forms
 	
 	.modal-form .buttons .button { height: 34px; line-height: 20px; padding: 0; }
 		.modal-form .buttons a.button { line-height: 34px; }
-	.modal-form .buttons .half .button { width: 140px; float: left; font-size: 16px; margin: 0; }
+	.modal-form .buttons .half .button { width: 95%; max-width: 140px; float: left; font-size: 16px; margin: 0; }
 	.modal-form .buttons .half + .half .button { float: right; }
 	
 	.modal-form .account-links .half { font-size: 70%; margin: 30px 0 0;}
@@ -265,6 +265,9 @@ Buttons/Tags
 }
 
 .button, .tag, input.button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 	text-align: center; 
 	padding: 4px 12px;
 	display: inline-block; 
@@ -292,6 +295,8 @@ Buttons/Tags
 		margin-bottom: 4px; 
 	}
 	.button .icon, .tag .icon { padding-right: 6px; }
+	.button__label { padding-left: 6px; }
+	
 	
 	.half > .button, .third  > .button, .twothird  > .button, .quarter > .button, .sixth > .button { 
 		width: 100%; margin: 0 auto; padding-left: 0; padding-right: 0;
@@ -685,8 +690,10 @@ Buttons/Tags
 /* 
 	Media Queries
 */		
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 40em) {
 /* Same width as when the grid is broken up in main.css */
+
+.button__label { display: none; }
 
 .form-wrap.halves { padding: 20px 25px; }
 .form-wrap .third { margin-right: auto; }

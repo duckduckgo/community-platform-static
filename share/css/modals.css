@@ -258,8 +258,10 @@ Reveal Modals
 				much of this could probably be re-written to work better on mobile, 
 				but this is the lesser of two evils at the moment.
 			*/
-			width: 300px;
-			margin-left: -176px;
+			width: 280px;
+			margin-left: -155px;
+			padding-left: 11px;
+			padding-right: 11px;
 		}
 	}
 	
