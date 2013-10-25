@@ -1453,7 +1453,7 @@ a .icon-flip-vertical:before {
 }
 
 /* dukgo custom icons from icomoon - they go last to override the fontawesome ones */
-.icon-search, .icon-browser-window, .icon-globe, .icon-tools, .icon-bubble, .icon-bubbles, .icon-bubbles-2, .icon-spam, .icon-close, .icon-globe-2, .icon-earth, .icon-cog, .icon-github, .icon-facebook, .icon-twitter, .icon-reddit, .icon-feed, .icon-console, .icon-info, .icon-cancel-circle, .icon-user, .icon-users, .icon-tag, .icon-tags, .icon-bullhorn, .icon-share, .icon-arrow-up, .icon-arrow-down, .icon-rocket, .icon-lab, .icon-spinner, .icon-spinner-2, .icon-deviantart, .icon-steam, .icon-wordpress, .icon-picassa, .icon-dribbble, .icon-forrst, .icon-flickr, .icon-flickr-2, .icon-lanyrd, .icon-blogger, .icon-tumblr, .icon-yahoo, .icon-soundcloud, .icon-skype, .icon-lastfm, .icon-delicious, .icon-stumbleupon, .icon-pinterest, .icon-xing, .icon-flattr, .icon-foursquare, .icon-yelp, .icon-instagram, .icon-settings, .icon-paperclip, .icon-comment, .icon-email, .icon-camera, .icon-calendar, .icon-book, .icon-enter, .icon-atom, .icon-syringe, .icon-health, .icon-pill, .icon-bones, .icon-lab-2, .icon-graph, .icon-image, .icon-cube, .icon-chart, .icon-vectortuts-pirate-panda, .icon-ian-yates-y-fronts, .icon-justin-burns-skull, .icon-ilias-ismanalijev-batman, .icon-joshua-barker-landscape, .icon-quin-robinson-casual-shoe, .icon-danis-lou-joystick, .icon-matt-hakes-moustache, .icon-jj-moi-kneel, .icon-aleks-dorohovich-triforce, .icon-patrik-larsson-pokemon, .icon-michael-howarth-tardis, .icon-rdio, .icon-qq, .icon-dropbox, .icon-evernote, .icon-renren, .icon-sina-weibo, .icon-mixi, .icon-behance, .icon-vk, .icon-circles, .icon-network {
+.icon-search, .icon-browser-window, .icon-globe, .icon-tools, .icon-bubble, .icon-bubbles, .icon-bubbles-2, .icon-spam, .icon-close, .icon-globe-2, .icon-earth, .icon-cog, .icon-github, .icon-facebook, .icon-twitter, .icon-reddit, .icon-feed, .icon-console, .icon-info, .icon-cancel-circle, .icon-user, .icon-users, .icon-tag, .icon-tags, .icon-bullhorn, .icon-share, .icon-arrow-up, .icon-arrow-down, .icon-rocket, .icon-lab, .icon-spinner, .icon-spinner-2, .icon-deviantart, .icon-steam, .icon-wordpress, .icon-picassa, .icon-dribbble, .icon-forrst, .icon-flickr, .icon-flickr-2, .icon-lanyrd, .icon-blogger, .icon-tumblr, .icon-yahoo, .icon-soundcloud, .icon-skype, .icon-lastfm, .icon-delicious, .icon-stumbleupon, .icon-pinterest, .icon-xing, .icon-flattr, .icon-foursquare, .icon-yelp, .icon-instagram, .icon-settings, .icon-paperclip, .icon-comment2, .icon-email, .icon-camera, .icon-calendar, .icon-book, .icon-enter, .icon-atom, .icon-syringe, .icon-health, .icon-pill, .icon-bones, .icon-lab-2, .icon-graph, .icon-image, .icon-cube, .icon-chart, .icon-vectortuts-pirate-panda, .icon-ian-yates-y-fronts, .icon-justin-burns-skull, .icon-ilias-ismanalijev-batman, .icon-joshua-barker-landscape, .icon-quin-robinson-casual-shoe, .icon-danis-lou-joystick, .icon-matt-hakes-moustache, .icon-jj-moi-kneel, .icon-aleks-dorohovich-triforce, .icon-patrik-larsson-pokemon, .icon-michael-howarth-tardis, .icon-rdio, .icon-qq, .icon-dropbox, .icon-evernote, .icon-renren, .icon-sina-weibo, .icon-mixi, .icon-behance, .icon-vk, .icon-circles, .icon-network {
 	font-family: 'dukgo-icons';
 	speak: none;
 	font-style: normal;
@@ -1634,7 +1634,7 @@ a .icon-flip-vertical:before {
 .icon-paperclip:before {
 	content: "\e038";
 }
-.icon-comment:before {
+.icon-comment2:before {
 	content: "\e039";
 }
 .icon-email:before {
