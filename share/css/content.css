@@ -1,4 +1,8 @@
 /* Content Styling */
+
+.content {
+	word-wrap: break-word; /* these containers often have user input, so don't let users break stuff */
+}
 	
 	.content h1 { 
 		font-weight: bold;
