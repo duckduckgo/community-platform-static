@@ -584,7 +584,7 @@ a.fill {
 				border-left: 1px solid #d5d5d5;
 			}
 			
-		.header-nav .active a, .header-nav a:hover, .header-nav ul li:first-child a:hover, .page-home li.nav-home a, .page-blog li.nav-blog a, .page-translate li.nav-translate a, .page-forums li.nav-forums a  { 
+		.header-nav .active a, .header-nav a:hover, .header-nav ul li:first-child a:hover, .page-home li.nav-home a, .page-blog li.nav-blog a, .page-translate li.nav-translate a, .page-forums li.nav-forums a, .page-help li.nav-help a  { 
 			color: black; 
 			background: #cdcdcd;
 			border-left-color: #bbb;
@@ -904,7 +904,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	}
 	
 	.language_nav { margin-top: 6px; }
-	.breadcrumb-right { margin-top: 0; }	
+	
 	
 	.site-bottom .nav-col { padding-left: 0; text-align: center; }
 		.nav-col h4 { font-size: 17px; padding-top: 14px; }
@@ -934,6 +934,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	.header-account-info .user-avatar, .header-account-info .user-notifications {
 		visibility: hidden;		
 	}
+	.breadcrumb-right { margin-top: 0; }	
 }
 @media only screen and (max-width: 375px) {
 	.header-logo {
