@@ -734,6 +734,14 @@ a.fill {
 		-webkit-background-clip: padding-box; 
 		background-clip: padding-box;	
 	}
+		.content-box .body--round, .body--round{
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+		.content-box .body--round > .row:first-child {
+			-webkit-border-radius: 5px 5px 0 0;
+			border-radius: 5px 5px 0 0;
+		}
 	.content-box .row {
 		clear: both;
 		border-top: 1px solid #d7d7d7;
