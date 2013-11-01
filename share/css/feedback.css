@@ -220,9 +220,6 @@ you can use the generic selector below, but it's slower:
 	margin: 0 auto 10px;
 }
 .fb-step {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
 	display: table;
 	vertical-align: middle;
 	width: 100%;
@@ -245,7 +242,7 @@ you can use the generic selector below, but it's slower:
 	.fb-step--active:active,
 	.fb-step--text:active,
 	.fb-step--submit:active { top: 1px; }
-
+	
 .fb-step--active {
 	color: #7e7e7e;
 	background-color: #fefefe;	
@@ -337,6 +334,12 @@ you can use the generic selector below, but it's slower:
 		padding: 13px 67px 13px 63px;		
 		border: none;
 		background: none;
+	} 
+	.fb-step__body,
+	.fb-step {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
 	}
 	.fb-step__body--btn {		
 		font-size: 17px;
