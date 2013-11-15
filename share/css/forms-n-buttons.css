@@ -368,10 +368,16 @@ Buttons/Tags
 		
 	.button.disabled, a.button.disabled, input.button.disabled {
 		cursor: default;
+	}
+	.button.disabled {		
 		opacity: 0.5;
 	}
 		.button.disabled:hover, .button.disabled:active { background-color: #f8f8f8; }
 		
+		.button-nav-current.disabled {			
+			opacity: 1;
+		}
+
 	.button:hover {
 		background-color: #fff;
 	}	
