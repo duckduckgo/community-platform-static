@@ -98,28 +98,34 @@ pre, tt {
 }
 tt { padding: 0 3px 1px; }
 pre {	
+	display: block;
+	max-width: 100%;
 	position: relative;
     margin: 0 0 18px 0; 
 	overflow: auto;	
-	padding: 0;		    
+	padding: 11px;		    
 	-moz-tab-size: 1;
 	-o-tab-size: 1;
 	tab-size: 1;
 	-ms-word-break: normal;
 	word-break: normal;
-	word-break: normal;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
-	hyphens: none;	
+	hyphens: none;
+	
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: pre-wrap;
+	
+	word-wrap: normal;
 }
 
 pre code {
-	padding: 11px; 
 	background: none;
-	white-space: pre;
-	overflow: auto;
-	display: block;
+	white-space: pre;	
+	overflow: hidden;
 }
 
 /* For syntax highlighting in code blocks */
