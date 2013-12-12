@@ -345,10 +345,16 @@ Buttons/Tags
 	-moz-border-radius: 0;
 	border-radius: 0;
 }	
-	.button-group > .button + .button {
+	.button-group > .button + .button,
+	.button-group > .radio + .button {
 		margin-left: -1px;
 	}	
-.button-group > .button:first-child {
+	.button-group > .radio {
+		display: none;
+	}
+	
+.button-group > .button:first-child,
+.button-group > .radio:first-child + .button {
 	margin-left: 0;
 	-webkit-border-bottom-left-radius: 3px;
 	border-bottom-left-radius: 3px;
@@ -579,7 +585,8 @@ Buttons/Tags
 	.button.darkblue, .tag.darkblue,
 	.button.blue, .tag.blue,	
 	.button.charcoal, .tag.charcoal, 
-    .button-nav-current    {
+    .button-nav-current,
+	.radio:checked + label.button {
 		color: #fff;
 		text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
 	}
@@ -591,7 +598,8 @@ Buttons/Tags
 		.button.black:hover { background-color: #000; }		
 	
 	.button.charcoal, .tag.charcoal, 
-    .button.button-nav-current, .button.button-nav-current:hover {
+    .button.button-nav-current, .button.button-nav-current:hover,
+	.radio:checked + label.button, .radio:checked + label.button:hover {
 		background-color: #5b5f68;
 		border-color: #444;
 	}
