@@ -873,7 +873,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	#wrapper { min-height: 100%; }
 	.site-main { padding-bottom: 335px; }
 	.site-footer, .site-bottom { position: absolute; left: 0; width: 100%; }
-	.site-bottom { position: absolute; bottom: 79px; margin-top: -320px; }
+	.site-bottom { position: absolute; bottom: 50px; margin-top: -320px; }
 	.site-footer { bottom: 0; left: 0; }	
 	
 }
