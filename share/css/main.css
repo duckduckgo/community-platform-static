@@ -871,7 +871,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	/* keep the footer at the bottom for larger screens where the height is known */
 	html, body { height: 100%; min-height: 100%; }
 	#wrapper { min-height: 100%; }
-	.site-main { padding-bottom: 335px; }
+	.site-main { padding-bottom: 200px; }
 	.site-footer, .site-bottom { position: absolute; left: 0; width: 100%; }
 	.site-bottom { position: absolute; bottom: 50px; margin-top: -320px; }
 	.site-footer { bottom: 0; left: 0; }	
