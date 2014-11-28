@@ -128,6 +128,15 @@ pre code {
 	overflow: hidden;
 }
 
+.duckduckhack-docs pre {
+	padding: 0;
+}
+
+.duckduckhack-docs pre code {
+	font-size: 12px;
+	font-family: Consolas, ‘Andale Mono WT’, ‘Andale Mono’, ‘Lucida Console’, ‘Lucida Sans Typewriter’, ‘DejaVu Sans Mono’, ‘Bitstream Vera Sans Mono’, Monaco, ‘Courier New’, monospace;
+}
+
 /* For syntax highlighting in code blocks */
 code > .synComment { color: lightblue; }
 code > .synConstant { color: lightgreen; }
