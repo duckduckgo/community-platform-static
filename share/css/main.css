@@ -86,6 +86,10 @@ hr { border: none; background: #e8e8e8; display: block; height: 1px; margin: 18p
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { text-decoration: none; }
 
+pre, tt, code {
+	font-family: Consolas, ‘Andale Mono WT’, ‘Andale Mono’, ‘Lucida Console’, ‘Lucida Sans Typewriter’, ‘DejaVu Sans Mono’, ‘Bitstream Vera Sans Mono’, Monaco, ‘Courier New’, monospace;
+}
+
 pre, tt { 
 	color: #fafafa;
 	background: #333;
@@ -124,7 +128,7 @@ pre {
 
 pre code {
 	background: none;
-	white-space: pre;	
+	white-space: pre;
 	overflow: hidden;
 }
 
@@ -134,7 +138,6 @@ pre code {
 
 .duckduckhack-docs pre code {
 	font-size: 12px;
-	font-family: Consolas, ‘Andale Mono WT’, ‘Andale Mono’, ‘Lucida Console’, ‘Lucida Sans Typewriter’, ‘DejaVu Sans Mono’, ‘Bitstream Vera Sans Mono’, Monaco, ‘Courier New’, monospace;
 }
 
 /* For syntax highlighting in code blocks */
