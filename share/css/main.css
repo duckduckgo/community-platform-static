@@ -128,6 +128,12 @@ pre code {
 	overflow: hidden;
 }
 
+p > code {
+	background: #e1e1e1;
+    padding: 2px 3px;
+    border-radius: 2px;
+}
+
 /* For syntax highlighting in code blocks */
 code > .synComment { color: lightblue; }
 code > .synConstant { color: lightgreen; }
